@@ -1,0 +1,29 @@
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.carousel-subtitle {
+  font-size: 30px;
+}
+
+#redbutton {
+	background-color: red;
+}
+
+#bluebutton {
+	background-color: blue;
+}
+
+#greenbutton {
+	background-color: green;
+}
+
+.bigbutton {
+	width: 100%;
+	text-align: center;
+	border-radius: 25px;
+
+  font-size: 40px;
+}
+h1 { text-align: center; } 
+.row {padding: 30px ;}
