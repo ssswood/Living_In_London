@@ -1,2 +1,1 @@
-# Living_In_London
-The overall guide for moving to London
+# Renting_in_London_Respository
