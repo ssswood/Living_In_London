@@ -1,3 +1,14 @@
+body { 
+  background-image:url(assets/images/backgroundidea.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #C1E0E8;
+}
+
+
+
 .carousel-caption {
     top: 0;
     bottom: auto;
