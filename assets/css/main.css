@@ -1,11 +1,13 @@
 body { 
-  background-image: url("assets/images/pinkdust.png");
+  background-image: url("https://images.unsplash.com/photo-1487762488615-8a011458b53e?auto=format&fit=crop&w=1334&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #D6D6D6;
 }
+
+
 
 .top-buffer { 
   margin-top:10px; 
