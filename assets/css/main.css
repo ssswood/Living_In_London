@@ -7,7 +7,9 @@ body {
   background-color: #D6D6D6;
 }
 
-
+.top-buffer { 
+  margin-top:20px; 
+}
 
 .carousel-caption {
     top: 0;
