@@ -1,9 +1,10 @@
 body { 
-  background-image:url(assets/images/backgroundidea.jpg);
+  background-image: url("assets/images/pinkdust.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #D6D6D6;
 }
 
 
