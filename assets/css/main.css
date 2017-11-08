@@ -7,15 +7,27 @@
 }
 
 #redbutton {
-	background-color: red;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
 }
 
 #bluebutton {
-	background-color: blue;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
 }
 
 #greenbutton {
-	background-color: green;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
 }
 
 .bigbutton {
@@ -26,4 +38,7 @@
   font-size: 40px;
 }
 h1 { text-align: center; } 
+.row {padding: 30px ;}
+
+h2 { text-align: center; } 
 .row {padding: 30px ;}
