@@ -91,7 +91,7 @@ h2 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #D6D6D6;
 }
 
 .container1:hover .overlay {
