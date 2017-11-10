@@ -8,7 +8,10 @@ body {
   background-color: #D6D6D6;
 }
 
-
+.carousel-inner > .item > img {
+  width:100%;
+  height:550px;
+}
 
 .top-buffer { 
   margin-top:10px; 
@@ -106,19 +109,15 @@ li {
       height: 100%;
     }
 
-
-
-.overlay {
-      display: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      clear: float;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.6);
-      color: #ffffff;
-    }
+.overlay { 
+  color:#fff;
+  position: absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
 
 .container1:hover .overlay {
   display: block;
