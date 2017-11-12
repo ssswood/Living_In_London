@@ -12,3 +12,4 @@ $(".item").click(function(){
 $(".left").click(function(){
     $("#myCarousel").carousel("prev");
 });
+
