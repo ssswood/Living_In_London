@@ -93,6 +93,17 @@ li {
   }
 }
 
+.overlay { 
+  color:#fff;
+  position: absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+  top: 0;
+  bottom: auto;
+}
 
 .container1 {
       position: relative;
@@ -109,19 +120,8 @@ li {
       height: 100%;
     }
 
-.overlay { 
-  color:#fff;
-  position: absolute;
-  z-index:12;
-  top:50%;
-  left:0;
-  width:100%;
-  text-align:center;
-  top: 0;
-  bottom: auto;
-}
 
-.hover {
+.overlay2 {
       display: none;
       position: absolute;
       top: 0;
@@ -133,7 +133,7 @@ li {
       color: #ffffff;
     }
 
-.container1:hover .hover {
+.container1:hover .overlay2 {
   display: block;
 }
 
