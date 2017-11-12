@@ -147,12 +147,12 @@ body {
   box-sizing: border-box;
 }
 
-ul {
+ul.styled-list {
   margin: 0;
   padding: 0;
 }
 
-ul li {
+ul.styled-list {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -168,21 +168,21 @@ ul li {
   user-select: none;
 }
 
-ul li:nth-child(odd) {
+ul.styled-list {:nth-child(odd) {
   background: #f9f9f9;
 }
 
-ul li:hover {
+ul.styled-list {:hover {
   background: #ddd;
 }
 
-ul li.checked {
+ul.styled-list {.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
 }
 
-ul li.checked::before {
+ul.styled-list {.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -258,6 +258,7 @@ input {
 </div>
 
 <ul id="myUL">
+  <ul class="styled-list">
   <li>Chose what area to live in</li>
   <li class="checked">Sort out council tax</li>
   <li class="checked">Create a budget for rent, bills etc</li>
