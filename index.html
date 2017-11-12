@@ -147,12 +147,12 @@ body {
   box-sizing: border-box;
 }
 
-ul.styled-list {
+ul.styled-list li{
   margin: 0;
   padding: 0;
 }
 
-ul.styled-list {
+ul.styled-list li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -168,21 +168,21 @@ ul.styled-list {
   user-select: none;
 }
 
-ul.styled-list {:nth-child(odd) {
+ul.styled-list li {:nth-child(odd) {
   background: #f9f9f9;
 }
 
-ul.styled-list {:hover {
+ul.styled-list li{:hover {
   background: #ddd;
 }
 
-ul.styled-list {.checked {
+ul.styled-list li {.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
 }
 
-ul.styled-list {.checked::before {
+ul.styled-list li {.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
