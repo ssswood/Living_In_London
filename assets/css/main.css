@@ -163,17 +163,17 @@ li {
 .container2 {
       position: relative;
       width: 100%;
-      height: 663px;
+      height: 400px;
     }
 
 .container2 h5 {
   z-index: 100;
   position: absolute;
   color: black;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  left: 45px;
-  top: 40px;
+  left: 450px;
+  top: 45px;
 }
 
 .container2:hover .overlay2 {
@@ -183,7 +183,7 @@ li {
 .Important_2 {
   display:inline-block;
   width:100%;
-  height: 663px;
+  height: 400px;
 }
 
 .container3 {
@@ -196,7 +196,7 @@ li {
   z-index: 100;
   position: absolute;
   color: black;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   left: 45px;
   top: 40px;
@@ -222,7 +222,7 @@ li {
   z-index: 100;
   position: absolute;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   left: 60px;
   top: 40px;
@@ -248,7 +248,7 @@ li {
   z-index: 100;
   position: absolute;
   color: black;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   left: 30px;
   top: 40px;
@@ -274,7 +274,7 @@ li {
   z-index: 100;
   position: absolute;
   color: lightgrey;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   left: 30px;
   top: 40px;
@@ -288,4 +288,30 @@ li {
   display:inline-block;
   width:100%;
   height: 800px;
+}
+
+.container7 {
+      position: relative;
+      width: 100%;
+      height: 400px;
+    }
+
+.container7 h5 {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  left: 400px;
+  top: 15px;
+}
+
+.container7:hover .overlay2 {
+  display: block;
+}
+
+.Important_7 {
+  display:inline-block;
+  width:100%;
+  height: 400px;
 }
