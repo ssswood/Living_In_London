@@ -385,3 +385,8 @@ li {
 .hideoverflow {
   overflow: hidden;
 }
+
+.paddedrow {
+  margin-right: 0px;
+  margin-left: 0px;
+}
