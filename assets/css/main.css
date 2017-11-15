@@ -232,7 +232,17 @@ li {
     border: white;
     text-align: center;
     border-radius: 20px;
+    position: relative;
+    width: 100%;
   }
+
+
+.textcontainer:hover .overlay2 {
+  display: block;
+  height: 400px;
+}
+
+
 
 .container2 {
       position: relative;
@@ -274,10 +284,12 @@ li {
   font-weight: bold;
   left: 45px;
   top: 40px;
+
 }
 
 .container3:hover .overlay2 {
   display: block;
+  height: 570px;
 }
 
 .Important_3 {
@@ -356,6 +368,7 @@ li {
 
 .container6:hover .overlay2 {
   display: block;
+  height: 755px;
 }
 
 .Important_6 {
@@ -401,6 +414,10 @@ li {
 
 @media screen and (min-width: 768px) {
   .mobilesmall {
-    width: have a play with the percent;
+    width: 50%
   }
 }
+
+
+
+
