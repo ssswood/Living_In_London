@@ -390,13 +390,3 @@ li {
   margin-right: 0px;
   margin-left: 0px;
 }
-
-.image2 {
-  height: 100%!important;
-  width: auto!important;
-  max-width: none!important;
-}
-
-.item {
-  overflow: hidden;
-}
